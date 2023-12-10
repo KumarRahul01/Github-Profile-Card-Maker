@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #212121;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+  width: 500px;
+  height: 100%;
+  background-color: cornsilk;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container .img{
+  width: 100%;
+  height: 300px;
+  /* border: 1px solid #212121; */
+}
+
+.img img{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  padding-top: 20px;
+}
+
+.container .username{
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  margin-block: 10px;
+}
+
+.container .userdetails{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin-block: 10px;
+}
+
+#user_details{
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.container .repo-count{
+  width: 100%;
+  /* background-color: red; */
+  padding-left: 10px;
+  margin-block: 10px;
+  height: 100%;
+}
+
+.container .user-url{
+  text-align: center;
+  height: 100%;
+}
+
+.user-url button{
+  padding: 12px 20px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  background-color: rgb(247, 247, 115);
+  border-radius: 10px;
+  border: 1px soild #ccc;
+  outline: none;
+  cursor: pointer;
+  margin-block: 10px;
+  transition: all 0.2s ease;
+}
+
+button:hover{
+  transform: translateY(-3px);
+}
+
+.hide{
+  display: none;
+}
+
+.message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.message h1{
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.message input{
+  padding: 10px 20px 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.message #card{
+  margin-top: 30px;
+  padding: 12px 20px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: #e1c811;
+  cursor: pointer;
+}
+
+.message button:hover{
+  transform: translateY(2px);
+}
+
+.message.hide{
+  display: none;
+}
